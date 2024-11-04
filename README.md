@@ -5,9 +5,7 @@ A bash script that fetches GitHub user IDs from a list of usernames and outputs 
 ## Rate Limiting Warning ⚠️
 
 This tool uses the GitHub API which has rate limiting restrictions:
-- For unauthenticated requests: 60 requests per hour
-- For authenticated requests: 5,000 requests per hour
-- The script includes a built-in delay mechanism and rate limit handling
+- For unauthenticated requests: 900 requests per minute
 
 ## Prerequisites
 
